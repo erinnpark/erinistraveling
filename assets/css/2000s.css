@@ -6,7 +6,286 @@
 }
 
 /* Write your CSS below (feel free to change the styles already here) */
-body {
-	font-family: monospace;
-	background-color: rgb(147, 246, 140);
+body{
+	padding: 50 px;
+	background-color: rgb(0, 0, 0);
 }
+
+
+p {
+	font-family: monaco;
+	background-color: rgb(246, 140, 223);
+	max-width: 500px;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 10px;
+	border: 5px solid rgb(255, 255, 255);
+	
+}
+.title{
+	text-align: center;
+	font-size: 48px;
+	font-weight: 700;
+	margin-left:auto;
+	margin-right:auto;
+	animation-name: lily;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	background-color: rgb(252, 218, 249);
+}
+.nav{
+	font-family: monaco;
+	background-color: rgb(246, 140, 223);
+	padding: 10px;
+	border: 5px solid rgb(255, 255, 255);
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	max-width: 500px;
+	font-size: small;
+	margin-right: 25%;
+	position: sticky;
+	top:0px;
+}
+
+.one{
+	background-color: rgb(245, 158, 236);
+	margin-left: 25%;
+	padding: 30px;
+}
+.one:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(-10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.one:active{
+	font-style: italic;
+}
+
+.two{
+	margin-right: 25%;
+	background-color: rgb(251, 139, 236);
+	padding: 30px;
+}
+.two:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.two:active{
+	font-style: italic;
+}
+
+.three{
+	margin-left: 25%;
+	background-color: rgb(251, 193, 246);
+	padding: 30px;
+}
+.three:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(-10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.three:active{
+	font-style: italic;
+}
+
+.four{
+	margin-right: 25%;
+	background-color: rgb(247, 147, 239);
+	padding: 30px;
+}
+.four:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.four:active{
+	font-style: italic;
+}
+
+.five{
+	margin-left: 25%;
+	background-color: rgb(251, 146, 225);
+	padding: 30px;
+}
+.five:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(-10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.five:active{
+	font-style: italic;
+}
+
+.six{
+	margin-right: 25%;
+	background-color: rgb(251, 193, 246);
+	padding: 30px;
+}
+.six:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.six:active{
+	font-style: italic;
+}
+
+.seven{
+	margin-left: 25%;
+	background-color: rgb(250, 177, 244);
+	padding: 30px;
+}
+.seven:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(-10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.seven:active{
+	font-style: italic;
+}
+
+.eight{
+	margin-right: 25%;
+	background-color: rgb(247, 215, 244);
+	padding: 30px;
+}
+.eight:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.eight:active{
+	font-style: italic;
+}
+
+.nine{
+	margin-left: 25%;
+	background-color: rgb(250, 168, 251);
+	padding: 30px;
+}
+.nine:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(-10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.nine:active{
+	font-style: italic;
+}
+
+.ten{
+	margin-right: 25%;
+	background-color: rgb(253, 179, 225);
+	padding: 30px;
+}
+.ten:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.ten:active{
+	font-style: italic;
+}
+
+.eleven{
+	margin-left: 25%;
+	background-color: rgb(251, 193, 244);
+	padding: 30px;
+}
+.eleven:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(-10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.eleven:active{
+	font-style: italic;
+}
+
+.twelve{
+	margin-right: 25%;
+	background-color: rgb(251, 193, 246);
+	padding: 30px;
+}
+.twelve:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.twelve:active{
+	font-style: italic;
+}
+
+.thirteen{
+	margin-left: 25%;
+	background-color: rgb(247, 121, 236);
+	padding: 30px;
+}
+.thirteen:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(-10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.thirteen:active{
+	font-style: italic;
+}
+
+.fourteen{
+	margin-right: 25%;
+	background-color: rgb(250, 134, 240);
+	padding: 30px;
+}
+.fourteen:hover{
+	background-color: rgb(255, 255, 255);
+	transform: rotate(10deg);
+	transition: background-color 1s, transform 2s;
+}
+
+.fourteen:active{
+	font-style: italic;
+}
+
+.fifteen{
+	margin-left:auto;
+	margin-right:auto;
+	background-color: rgb(252, 218, 249);
+	padding: 30px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	animation-name: lily;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+
+@keyframes lily {
+	0% {
+	  opacity: 2;
+	  transform: translateY(10px);
+	}
+	50% {
+	  opacity: 4;
+	  transform: translateY(0);
+	}
+	100% {
+	  opacity: 2;
+	  transform: translateY(-10px);
+	}
+  }
