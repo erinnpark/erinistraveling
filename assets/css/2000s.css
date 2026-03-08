@@ -1,12 +1,15 @@
 /* Add styles to all elements */
 * {
-	margin: 0; /* remove default margin from all elements */
-	padding: 0; /* remove default padding from all elements */
-	box-sizing: border-box; /* fix width calculation, more info here: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-sizing */
+	margin: 0;
+	/* remove default margin from all elements */
+	padding: 0;
+	/* remove default padding from all elements */
+	box-sizing: border-box;
+	/* fix width calculation, more info here: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-sizing */
 }
 
 /* Write your CSS below (feel free to change the styles already here) */
-body{
+body {
 	padding: 50 px;
 	background-color: rgb(0, 0, 0);
 }
@@ -16,252 +19,269 @@ p {
 	font-family: monaco;
 	background-color: rgb(246, 140, 223);
 	max-width: 500px;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 10px;
 	border: 5px solid rgb(255, 255, 255);
-	
+
 }
-.title{
+
+.title {
 	text-align: center;
 	font-size: 48px;
 	font-weight: 700;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 	animation-name: lily;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 	background-color: rgb(252, 218, 249);
 }
-.nav{
+
+.nav {
 	font-family: monaco;
 	background-color: rgb(246, 140, 223);
 	padding: 10px;
 	border: 5px solid rgb(255, 255, 255);
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 	max-width: 500px;
 	font-size: small;
 	margin-right: 25%;
 	position: sticky;
-	top:0px;
+	top: 0px;
 }
 
-.one{
+.one {
 	background-color: rgb(245, 158, 236);
 	margin-left: 25%;
 	padding: 30px;
 }
-.one:hover{
+
+.one:hover {
 	background-color: rgb(255, 255, 255);
 	transform: rotate(-10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.one:active{
+.one:active {
 	font-style: italic;
 }
 
-.two{
+.two {
 	margin-right: 25%;
 	background-color: rgb(251, 139, 236);
 	padding: 30px;
 }
-.two:hover{
+
+.two:hover {
 	background-color: rgb(255, 255, 255);
 	transform: rotate(10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.two:active{
+.two:active {
 	font-style: italic;
 }
 
-.three{
+.three {
 	margin-left: 25%;
 	background-color: rgb(251, 193, 246);
 	padding: 30px;
-}
-.three:hover{
-	background-color: rgb(255, 255, 255);
-	transform: rotate(-10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.three:active{
+.three:hover {
+	background-color: rgb(255, 255, 255);
+	transform: rotate(-10deg);
+
+}
+
+.three:active {
 	font-style: italic;
 }
 
-.four{
+.four {
 	margin-right: 25%;
 	background-color: rgb(247, 147, 239);
 	padding: 30px;
 }
-.four:hover{
+
+.four:hover {
 	background-color: rgb(255, 255, 255);
 	transform: rotate(10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.four:active{
+.four:active {
 	font-style: italic;
 }
 
-.five{
+.five {
 	margin-left: 25%;
 	background-color: rgb(251, 146, 225);
 	padding: 30px;
 }
-.five:hover{
+
+.five:hover {
 	background-color: rgb(255, 255, 255);
 	transform: rotate(-10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.five:active{
+.five:active {
 	font-style: italic;
 }
 
-.six{
+.six {
 	margin-right: 25%;
 	background-color: rgb(251, 193, 246);
 	padding: 30px;
 }
-.six:hover{
+
+.six:hover {
 	background-color: rgb(255, 255, 255);
 	transform: rotate(10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.six:active{
+.six:active {
 	font-style: italic;
 }
 
-.seven{
+.seven {
 	margin-left: 25%;
 	background-color: rgb(250, 177, 244);
 	padding: 30px;
 }
-.seven:hover{
+
+.seven:hover {
 	background-color: rgb(255, 255, 255);
 	transform: rotate(-10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.seven:active{
+.seven:active {
 	font-style: italic;
 }
 
-.eight{
+.eight {
 	margin-right: 25%;
 	background-color: rgb(247, 215, 244);
 	padding: 30px;
 }
-.eight:hover{
+
+.eight:hover {
 	background-color: rgb(255, 255, 255);
 	transform: rotate(10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.eight:active{
+.eight:active {
 	font-style: italic;
 }
 
-.nine{
+.nine {
 	margin-left: 25%;
 	background-color: rgb(250, 168, 251);
 	padding: 30px;
 }
-.nine:hover{
+
+.nine:hover {
 	background-color: rgb(255, 255, 255);
 	transform: rotate(-10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.nine:active{
+.nine:active {
 	font-style: italic;
 }
 
-.ten{
+.ten {
 	margin-right: 25%;
 	background-color: rgb(253, 179, 225);
 	padding: 30px;
 }
-.ten:hover{
+
+.ten:hover {
 	background-color: rgb(255, 255, 255);
 	transform: rotate(10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.ten:active{
+.ten:active {
 	font-style: italic;
 }
 
-.eleven{
+.eleven {
 	margin-left: 25%;
 	background-color: rgb(251, 193, 244);
 	padding: 30px;
 }
-.eleven:hover{
+
+.eleven:hover {
 	background-color: rgb(255, 255, 255);
 	transform: rotate(-10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.eleven:active{
+.eleven:active {
 	font-style: italic;
 }
 
-.twelve{
+.twelve {
 	margin-right: 25%;
 	background-color: rgb(251, 193, 246);
 	padding: 30px;
 }
-.twelve:hover{
+
+.twelve:hover {
 	background-color: rgb(255, 255, 255);
 	transform: rotate(10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.twelve:active{
+.twelve:active {
 	font-style: italic;
 }
 
-.thirteen{
+.thirteen {
 	margin-left: 25%;
 	background-color: rgb(247, 121, 236);
 	padding: 30px;
 }
-.thirteen:hover{
+
+.thirteen:hover {
 	background-color: rgb(255, 255, 255);
 	transform: rotate(-10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.thirteen:active{
+.thirteen:active {
 	font-style: italic;
 }
 
-.fourteen{
+.fourteen {
 	margin-right: 25%;
 	background-color: rgb(250, 134, 240);
 	padding: 30px;
 }
-.fourteen:hover{
+
+.fourteen:hover {
 	background-color: rgb(255, 255, 255);
 	transform: rotate(10deg);
 	transition: background-color 1s, transform 2s;
 }
 
-.fourteen:active{
+.fourteen:active {
 	font-style: italic;
 }
 
-.fifteen{
-	margin-left:auto;
-	margin-right:auto;
+.fifteen {
+	margin-left: auto;
+	margin-right: auto;
 	background-color: rgb(252, 218, 249);
 	padding: 30px;
 	text-align: center;
@@ -277,15 +297,17 @@ p {
 
 @keyframes lily {
 	0% {
-	  opacity: 2;
-	  transform: translateY(10px);
+		opacity: 2;
+		transform: translateY(10px);
 	}
+
 	50% {
-	  opacity: 4;
-	  transform: translateY(0);
+		opacity: 4;
+		transform: translateY(0);
 	}
+
 	100% {
-	  opacity: 2;
-	  transform: translateY(-10px);
+		opacity: 2;
+		transform: translateY(-10px);
 	}
-  }
+}
